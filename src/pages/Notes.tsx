@@ -11,7 +11,7 @@ export default function Notes() {
   useEffect(() => {
 
     (async () => {
-      const { data }: any = await axios.get('/api/notes/getNote')
+      const { data }: any = await axios.get('https://notes-server-uwt7.onrender.com/api/notes/getNote')
       console.log(data.allNotes)
       setNotes(data.allNotes)
     })();
@@ -20,7 +20,7 @@ export default function Notes() {
 
 
   async function handleDelete(id: any) {
-    const { data } = await axios.post('/api/notes/deleteNote', {id})
+    const { data } = await axios.post('https://notes-server-uwt7.onrender.com/api/notes/deleteNote', {id})
     console.log('id' + id)
     console.log('data', data.allNotes)
     setNotes(data.allNotes)
