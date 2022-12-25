@@ -20,7 +20,7 @@ export default function Notes() {
 
 
   async function handleDelete(id: any) {
-    const { data } = await axios.post('/api/notes/deleteNote', {id})
+    const { data } = await axios.post('https://notes-server-uwt7.onrender.com/api/notes/deleteNote', {id})
     console.log('id' + id)
     console.log('data', data.allNotes)
     setNotes(data.allNotes)

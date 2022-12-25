@@ -11,7 +11,6 @@ import Toolbar from '@material-ui/core/Toolbar'
 import { format } from 'date-fns'
 import Avatar from '@material-ui/core/Avatar'
 
-
 const drawerWidth = 180
 
 
@@ -114,7 +113,7 @@ const Layout = ({ children }: any) => {
                     <Typography className={classes.avatarName}>
                         Jesy
                     </Typography>
-                    <Avatar className={classes.avatar} src='../../public/avatar.jpg' />
+                    <Avatar className={classes.avatar} src='public/avatar.jpg' />
                 </Toolbar>
             </AppBar>
             <Drawer
