@@ -11,7 +11,7 @@ export default function Notes() {
   useEffect(() => {
 
     (async () => {
-      const { data }: any = await axios.get('https://notes-server-uwt7.onrender.com/api/notes/getNote')
+      const { data }: any = await axios.get('https://notes-server-uwt7.onrender.com/getNote')
       console.log(data.allNotes)
       setNotes(data.allNotes)
     })();
