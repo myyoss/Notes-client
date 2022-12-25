@@ -113,7 +113,7 @@ const Layout = ({ children }: any) => {
                     <Typography className={classes.avatarName}>
                         Jesy
                     </Typography>
-                    <Avatar className={classes.avatar} src='public/avatar.jpg' />
+                    <Avatar className={classes.avatar} src='	http://localhost:3000/avatar.JPG' />
                 </Toolbar>
             </AppBar>
             <Drawer
