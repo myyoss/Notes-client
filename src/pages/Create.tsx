@@ -45,7 +45,7 @@ export default function Create() {
 
     if (title && details) {
       console.log(note)
-      const noteData = await axios.post('https://notes-server-uwt7.onrender.com/api/notes/addNote', { note });
+      const noteData = await axios.post('/api/notes/addNote', { note });
       console.log(noteData)
 
       history.push('./')
