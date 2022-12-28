@@ -52,7 +52,7 @@ div .mobileView {
     background-color: rgba(244, 127, 255, 0.21);
   }
 
-.MuiAppBar-positionFixed {
+#root div .MuiAppBar-root {
   width: 100%;
   margin: auto;
 left: 0;
