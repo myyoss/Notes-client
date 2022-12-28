@@ -116,7 +116,6 @@ const Layout = ({ children }: any) => {
       icon: <AddCircleOutline color="secondary" />,
       path: "/create",
     },
-
   ];
   return (
     <div className={classes.root}>
