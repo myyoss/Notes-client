@@ -46,15 +46,18 @@ div .mobileView {
     /* background-color: aquamarine; */
   }
 
-  .makeStyles-root-4 header {
+  #root .makeStyles-root-4 header {
     width: 100%;
     margin: auto;
     background-color: rgb(244, 127, 255);
-display: flex;
-justify-content: center;
-align-items: center;
   }
 
+
+  /* .MuiAppBar header{
+    width: 100%;
+    margin: auto;
+    background-color: rgb(244, 127, 255);
+  } */
   div .makeStyles-date-9 {
     padding-left: 4px;
     text-align: center;
