@@ -49,16 +49,17 @@ div .mobileView {
   #root .makeStyles-root-4 header {
     width: 100%;
     margin: auto;
-    background-color: rgba(244, 127, 255, 0.21);
+    /* background-color: rgba(244, 127, 255, 0.21); */
   }
 
-#root div .MuiAppBar-root {
-  width: 100%;
-  margin: auto;
-left: 0;
-  background-color: rgb(46, 143, 106);
+  #root div .MuiAppBar-root {
+    width: 100%;
+    margin: auto;
+    left: 0px;
+    /* background-color: rgb(149, 232, 201); */
 
-}
+  }
+
   /* .MuiAppBar header{
     width: 100%;
     margin: auto;
