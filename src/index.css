@@ -35,6 +35,7 @@ div .mobileView {
 }
 
 @media (max-width:800px) {
+
   .MuiDrawer-root {
     display: none;
   }
@@ -42,11 +43,16 @@ div .mobileView {
   .MuiToolbar-root {
     width: 100%;
     margin: auto;
+    /* background-color: aquamarine; */
   }
 
   .makeStyles-root-4 header {
     width: 100%;
     margin: auto;
+    background-color: rgb(244, 127, 255);
+display: flex;
+justify-content: center;
+align-items: center;
   }
 
   div .makeStyles-date-9 {
@@ -62,6 +68,8 @@ div .mobileView {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    /* background-color: rgb(155, 255, 127); */
+
   }
 
   ::-webkit-scrollbar {
