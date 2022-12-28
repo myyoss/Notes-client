@@ -7,19 +7,73 @@ body {
 }
 
 .my-masonry-grid {
-  display: -webkit-box; /* Not needed if autoprefixing */
-  display: -ms-flexbox; /* Not needed if autoprefixing */
+  display: -webkit-box;
+  /* Not needed if autoprefixing */
+  display: -ms-flexbox;
+  /* Not needed if autoprefixing */
   display: flex;
-  margin-left: -30px; /* gutter size offset */
+  margin-left: -30px;
+  /* gutter size offset */
   width: auto;
 }
+
 .my-masonry-grid_column {
-  padding-left: 30px; /* gutter size */
+  padding-left: 30px;
+  /* gutter size */
   background-clip: padding-box;
 }
 
 /* Style your items */
-.my-masonry-grid_column > div { /* change div to reference your elements you put in <Masonry> */
+.my-masonry-grid_column>div {
+  /* change div to reference your elements you put in <Masonry> */
   /* background: #fefefe; */
   margin-bottom: 30px;
+}
+
+div .mobileView {
+  display: none;
+}
+
+@media (max-width:800px) {
+  .MuiDrawer-root {
+    display: none;
+  }
+
+  .MuiToolbar-root {
+    width: 100%;
+    margin: auto;
+  }
+
+  .makeStyles-root-4 header {
+    width: 100%;
+    margin: auto;
+  }
+
+  div .makeStyles-date-9 {
+    padding-left: 4px;
+    text-align: center;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0);
+    color: #9c27b0;
+  }
+
+  div .mobileView {
+    display: block;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  div .MuiAvatar-root {
+    margin-right: 2rem;
+  }
+
+  .MuiContainer-root {
+    background-color: #9b27b04e;
+    padding-top: 4rem;
+  }
 }
