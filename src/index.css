@@ -69,8 +69,8 @@ div .mobileView {
   div .mobileView {
     display: block;
     width: 100%;
-    display: flex;
-    justify-content: space-between;
+    /* display: flex;
+    justify-content: space-between; */
     /* background-color: rgb(155, 255, 127); */
 
   }
@@ -79,9 +79,9 @@ div .mobileView {
     display: none;
   }
 
-  div .MuiAvatar-root {
+  /* div .MuiAvatar-root {
     margin-right: 2rem;
-  }
+  } */
 
   .MuiContainer-root {
     padding-top: 5rem;
