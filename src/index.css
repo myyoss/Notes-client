@@ -47,12 +47,18 @@ div .mobileView {
   }
 
   #root .makeStyles-root-4 header {
-    width: 100vw;
+    width: 100%;
     margin: auto;
-    background-color: rgb(244, 127, 255);
+    background-color: rgba(244, 127, 255, 0.21);
   }
 
+.MuiAppBar-positionFixed {
+  width: 100%;
+  margin: auto;
+left: 0;
+  background-color: rgb(46, 143, 106);
 
+}
   /* .MuiAppBar header{
     width: 100%;
     margin: auto;
@@ -86,4 +92,6 @@ div .mobileView {
   .MuiContainer-root {
     padding-top: 5rem;
   }
+
+
 }
