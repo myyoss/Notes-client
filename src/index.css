@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Montserrat:ital,wght@0,100;0,200;1,100;1,200&family=Quicksand:wght@300;400;500;600;700&family=Roboto+Slab:wght@900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Montserrat:ital,wght@0,100;0,200;1,100;1,200&family=Quicksand:wght@300;400;500;600;700&family=Roboto+Slab:wght@900&display=swap");
 
 body {
   margin: 0;
@@ -24,7 +24,7 @@ body {
 }
 
 /* Style your items */
-.my-masonry-grid_column>div {
+.my-masonry-grid_column > div {
   /* change div to reference your elements you put in <Masonry> */
   /* background: #fefefe; */
   margin-bottom: 30px;
@@ -34,8 +34,7 @@ div .mobileView {
   display: none;
 }
 
-@media (max-width:800px) {
-
+@media (max-width: 800px) {
   .MuiDrawer-root {
     display: none;
   }
@@ -57,7 +56,6 @@ div .mobileView {
     margin: auto;
     left: 0px;
     /* background-color: rgb(149, 232, 201); */
-
   }
 
   /* .MuiAppBar header{
@@ -79,7 +77,6 @@ div .mobileView {
     display: flex;
     justify-content: space-between;
     /* background-color: rgb(155, 255, 127); */
-
   }
 
   ::-webkit-scrollbar {
@@ -93,6 +90,47 @@ div .mobileView {
   .MuiContainer-root {
     padding-top: 5rem;
   }
+}
+.loading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+.loading h3 {
+  font-weight: 100;
+  color: rgba(0, 0, 0, 0.54);
+  font-family: Quicksand;
+}
+.loader {
+  border: 10px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 10px solid #9c27b0;
+  width: 60px;
+  height: 60px;
+  -webkit-animation: spin 2s linear infinite;
+  /* Safari */
+  animation: spin 2s linear infinite;
+}
 
+/* Safari */
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
