@@ -88,21 +88,6 @@ const Layout = ({ children }: any) => {
       icon: <AddCircleOutline color="secondary" />,
       path: "/create",
     },
-    {
-      text: "Gallery",
-      icon: <AddCircleOutline color="secondary" />,
-      path: "/create",
-    },
-    {
-      text: "News",
-      icon: <AddCircleOutline color="secondary" />,
-      path: "/create",
-    },
-    {
-      text: "Mail Box",
-      icon: <AddCircleOutline color="secondary" />,
-      path: "/create",
-    },
   ];
 
   const mobileMenuItems = [
